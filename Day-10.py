@@ -3,7 +3,7 @@ command = ""
 started = False
 while True:
     
-    command = input("> ").lower()
+    command = input("Enter a thing: ").lower()
     
     if command == "start":
         if started:
